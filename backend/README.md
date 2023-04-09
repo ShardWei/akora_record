@@ -1,13 +1,27 @@
-# Sample Hardhat Project
+# Installation du projet HARDHAT
+Installez les dépendances :
+npm install
+ou
+yarn add
+Remplacer les variables du fichier .env par les votres.
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+ajouter les dépendances :
+yarn add dotenv
+yarn add @openzeppelin/contracts
+yarn add istanbul ( facultatif pour le coverage)
 
-Try running some of the following tasks:
+# Compiler les contrats
+npx hardhat compile
+ou
+yarn hardhat compile
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+# Déployer les contrats
+yarn hardhat run scripts/deploy.js --network (réseau)
+
+# Lancer les tests
+Pour lancer les tests exécuter :
+npm hardhat test
+ou
+yarn hardhat test
+
+Il y a un fichier test permettant de vérifier les 2 smarts Contracts.

@@ -9,6 +9,9 @@
 
 /* Set core body defaults */
 body {
+  background-image: url(../public/background.png);
+  background-repeat: no-repeat;
+  background-size: cover; 
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;

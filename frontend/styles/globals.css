@@ -9,7 +9,7 @@
 
 /* Set core body defaults */
 body {
-  background-image: url(../public/background.png);
+  background-color: #1c1e21;
   background-repeat: no-repeat;
   background-size: cover; 
   min-height: 100vh;
@@ -35,6 +35,7 @@ select {
 }
 
 body {
+  background-color: #df522f;
   background-image: url(../public/background.png);
   background-repeat: no-repeat;
   background-size: cover;  

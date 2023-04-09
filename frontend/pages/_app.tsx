@@ -2,7 +2,7 @@ import { ThirdwebProvider } from "@thirdweb-dev/react";
 import type { AppProps } from "next/app";
 import Head from "next/head";
 import Header from "../components/Header";
-import ThirdwebGuideFooter from "../components/GithubLink";
+import Gitlink from "../components/GithubLink";
 import "../styles/globals.css";
 
 // This is the chain your dApp will work on.
@@ -28,7 +28,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       </Head>
       <Header />
       <Component {...pageProps} />
-      <ThirdwebGuideFooter />
+      <Gitlink />
     </ThirdwebProvider>
   );
 }

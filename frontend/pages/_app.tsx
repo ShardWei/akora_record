@@ -27,7 +27,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         />
       </Head>
       <Header />
-      <Component {...pageProps} />
+      <Component {...pageProps}/>
       <Gitlink />
     </ThirdwebProvider>
   );
